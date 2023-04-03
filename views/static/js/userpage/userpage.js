@@ -70,7 +70,7 @@ function selectApp(userId) {
         let userId = rows[i]["userId"];
         let date = rows[i]["createdAt"];
         date = date.split("T")[0];
-
+        console.log(res);
         let temp_html = `
         <div class="app_body_container" onclick="show_one_user(${userId}, ${clubMemberId}, '${nickname}');">
           <div class="member_name">
@@ -98,20 +98,21 @@ function selectApp(userId) {
   });
 }
 
-function show_one_user(userId, clubMemberId, nickname) {
+function show_one_user(userId, clubMemberId, nickName) {
   $.ajax({
     type: "GET",
     url: `/userpage/${userId}/clubs/app/${clubMemberId}`,
     async: false,
     success: function (res) {
+      console.log(res);
       let temp_html = `
       <div class="app_body2">
         <div class="app_body2_content">
-          ${res["application"]}
+          ${res.thisApp["application"]}
         </div>
 		<div class="app_body2_from">
 		  <span class="from_label">From</span>
-		  <span class="nickname">${res["nickName"]}</span>
+		  <span class="nickname">${res.thisApp["nickName"]}</span>
 		</div>
       </div>
       <div class="app_button2">
