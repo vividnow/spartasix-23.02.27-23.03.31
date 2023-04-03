@@ -28,7 +28,7 @@ import {
   reformPostDateRaw,
 } from "../../views/static/js/filter"; //날짜처리, 페이지네이션
 import { AuthGuard } from "@nestjs/passport";
-import { OptionalAuthGuard } from "../auth/optional-auth.guard";
+import { OptionalAuthGuard } from "../auth/optionalAuth.guard";
 import { MailService } from "src/mail/mail.service";
 import { searchType, SearchResults } from "src/filter/searchFilter";
 

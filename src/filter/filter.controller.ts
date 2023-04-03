@@ -12,7 +12,7 @@ import {
 import { Response } from "express";
 import { FilterService } from "./filter.service";
 import { reformPostDate } from "../../views/static/js/filter";
-import { OptionalAuthGuard } from '../auth/optional-auth.guard';
+import { OptionalAuthGuard } from '../auth/optionalAuth.guard';
 import { searchType, SearchResults, PaginatedResult } from './searchFilter'
 
 @Controller("search")

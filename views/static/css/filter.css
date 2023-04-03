@@ -15,6 +15,17 @@
   letter-spacing: 0.3px;
 }
 
+.popularUsercontainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Alfa Slab One";
+  font-weight: normal;
+  font-size: small;
+  letter-spacing: 0.3px;
+}
+
 .search-wrap {
   position: relative;
   width: 280px;
@@ -63,7 +74,7 @@ input {
 /* 메인 인기글 레이아웃 위치*/
 #my-grid-main {
   display: grid;
-  grid-template-columns: auto 200px 800px auto;;
+  grid-template-columns: auto 200px 1100px auto;;
   grid-template-rows: 1fr;
   grid-template-areas: "box1 box2 box3 box4";
 }

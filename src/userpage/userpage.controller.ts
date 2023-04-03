@@ -23,7 +23,7 @@ import { Express } from "express";
 import * as AWS from "aws-sdk";
 import { FileInterceptor } from "@nestjs/platform-express";
 import { PaginationDto } from "./dto/pagination.dto";
-import { OptionalAuthGuard } from "../auth/optional-auth.guard";
+import { OptionalAuthGuard } from "../auth/optionalAuth.guard";
 
 @Controller("userpage")
 export class UserpageController {

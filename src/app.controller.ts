@@ -2,7 +2,7 @@ import { Controller, Get, Inject, Res, Render, UseGuards, Req } from "@nestjs/co
 import { Response } from "express";
 import { FilterService } from "./filter/filter.service";
 import { reformPostDate } from "../views/static/js/filter";
-import { OptionalAuthGuard } from './auth/optional-auth.guard';
+import { OptionalAuthGuard } from './auth/optionalAuth.guard';
 
 @Controller()
 export class AppController {

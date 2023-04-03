@@ -27,7 +27,7 @@ import * as AWS from "aws-sdk";
 import { FileInterceptor } from "@nestjs/platform-express";
 import { reformPostDate, paginatedResults } from "../../views/static/js/filter";
 import { AuthGuard } from "@nestjs/passport";
-import { OptionalAuthGuard } from '../auth/optional-auth.guard';
+import { OptionalAuthGuard } from '../auth/optionalAuth.guard';
 import { ReportEventDto } from "./dto/reportevent.dto";
 import { searchType} from "../filter/searchFilter"
 
