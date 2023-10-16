@@ -32,20 +32,23 @@
 <br>
 
 # 기술 스택
+## Languages
+
+<img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
 
 ## Front-end
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white"> <img src="https://img.shields.io/badge/ajax-E34F26?style=for-the-badge&logo=ajax&logoColor=white"> <img src="https://img.shields.io/badge/EJS-E34F26?style=for-the-badge&logo=EJS&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/ajax-E34F26?style=for-the-badge&logo=ajax&logoColor=white"> <img src="https://img.shields.io/badge/EJS-E34F26?style=for-the-badge&logo=EJS&logoColor=white">
 
 ## Back-end
 
-<img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"> <img src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"> <img src="https://img.shields.io/badge/typeorm-262627?style=for-the-badge&logo=typeorm&logoColor=white"> <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"> <img src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"> <img src="https://img.shields.io/badge/typeorm-262627?style=for-the-badge&logo=typeorm&logoColor=white">
 
 ## Database
 
 <img src="https://img.shields.io/badge/MYSQL-3178C6?style=for-the-badge&logo=MYSQL&logoColor=white"> <img src="https://img.shields.io/badge/amazone rds-527FFF?style=for-the-badge&logo=AMAZONE RDS&logoColor=white"> <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
 
-## DevOps
+## Infra
 
 <img src="https://img.shields.io/badge/Amazone S3-569A31?style=for-the-badge&logo=AmazoneS3&logoColor=white"> <img src="https://img.shields.io/badge/AMAZONE EC2-FF9900?style=for-the-badge&logo=AmazoneEC2&logoColor=white"> <img src="https://img.shields.io/badge/GitHub Actions-FF9900?style=for-the-badge&logo=GitHubActions&logoColor=white"> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
 
@@ -66,11 +69,10 @@
 
 <br>
 <br>
-<br>
 
 # ⚙️서비스 아키텍처
 
-<p align="center"><img src="./readme_img/service.png" width="80%" height="10%"></p>
+![images](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FUGKcD%2FbtsyBkxUcqg%2Fk1kQYOAIVxPVGFyXUBmEUK%2Fimg.png)
 
 <br>
 <br>
